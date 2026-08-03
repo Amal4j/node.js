@@ -15,3 +15,14 @@ Lesson 7: Trivy Scan (image scan, vulnerabilities, severity)
 Lesson 8: Azure Login + ACR Push (image registry ka concept)
 
 Lesson 9: upload-artifact (kab use karna hai aur kab nahi)
+
+| Question             | Kahan se answer milega?                   |
+| -------------------- | ----------------------------------------- |
+| Language kaunsi hai? | package.json / pom.xml / requirements.txt |
+| Build command?       | package.json → scripts                    |
+| Test command?        | package.json → scripts                    |
+| Docker hai?          | Dockerfile                                |
+| Kubernetes hai?      | k8s/, helm/, charts/                      |
+| Terraform hai?       | *.tf files                                |
+| GitHub Actions hai?  | .github/workflows                         |
+| Package manager?     | package-lock.json / yarn.lock             |
