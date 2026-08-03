@@ -1,0 +1,17 @@
+Lesson 1: actions/checkout@v4 (ye kya karta hai, runner kaise kaam karta hai)
+
+Lesson 2: actions/setup-node@v4 (Node version kaise select hota hai)
+
+Lesson 3: npm ci vs npm install (enterprise mein npm ci kyu)
+
+Lesson 4: npm run test:ci (Jest, test:ci aur unit testing)
+
+Lesson 5: npm run build (Next.js build ke andar kya hota hai)
+
+Lesson 6: Docker Build (Dockerfile ko line by line samjhenge)
+
+Lesson 7: Trivy Scan (image scan, vulnerabilities, severity)
+
+Lesson 8: Azure Login + ACR Push (image registry ka concept)
+
+Lesson 9: upload-artifact (kab use karna hai aur kab nahi)
