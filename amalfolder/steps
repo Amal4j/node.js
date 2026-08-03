@@ -35,6 +35,17 @@ Lesson 9: upload-artifact (kab use karna hai aur kab nahi)
 | .NET          | `.csproj`                             | `dotnet restore`                    | `dotnet test`  | `dotnet build` / `dotnet publish` |
 | Python        | `requirements.txt` / `pyproject.toml` | `pip install`                       | `pytest`       | Packaging (optional)              |
 
+| File               | Language | DevOps ko kya pata chalta hai? |
+| ------------------ | -------- | ------------------------------ |
+| `package.json`     | Node.js  | npm scripts, dependencies      |
+| `go.mod`           | Go       | Go version, modules            |
+| `pom.xml`          | Maven    | Java dependencies & build      |
+| `build.gradle`     | Gradle   | Java/Kotlin build              |
+| `.csproj`          | .NET     | .NET project config            |
+| `requirements.txt` | Python   | Python packages                |
+
+
+
 
 DevOps Engineer ka approach
 
