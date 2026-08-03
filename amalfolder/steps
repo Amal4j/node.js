@@ -26,3 +26,22 @@ Lesson 9: upload-artifact (kab use karna hai aur kab nahi)
 | Terraform hai?       | *.tf files                                |
 | GitHub Actions hai?  | .github/workflows                         |
 | Package manager?     | package-lock.json / yarn.lock             |
+
+| Technology    | Config File                           | Install                             | Test           | Build/Package                     |
+| ------------- | ------------------------------------- | ----------------------------------- | -------------- | --------------------------------- |
+| Node.js       | `package.json`                        | `npm ci`                            | `npm run test` | `npm run build`                   |
+| Java (Maven)  | `pom.xml`                             | `mvn dependency:resolve` (optional) | `mvn test`     | `mvn package`                     |
+| Java (Gradle) | `build.gradle`                        | Automatic                           | `gradle test`  | `gradle build`                    |
+| .NET          | `.csproj`                             | `dotnet restore`                    | `dotnet test`  | `dotnet build` / `dotnet publish` |
+| Python        | `requirements.txt` / `pyproject.toml` | `pip install`                       | `pytest`       | Packaging (optional)              |
+
+
+DevOps Engineer ka approach
+
+Pipeline likhne se pehle main sabse pehle project ki configuration file dekhta hoon:
+
+package.json → Node.js → npm
+pom.xml → Java Maven → mvn
+build.gradle → Gradle → gradle
+.csproj → .NET → dotnet
+requirements.txt / pyproject.toml → Python → pip / poetry
