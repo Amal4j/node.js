@@ -56,3 +56,5 @@ pom.xml → Java Maven → mvn
 build.gradle → Gradle → gradle
 .csproj → .NET → dotnet
 requirements.txt / pyproject.toml → Python → pip / poetry
+
+https://chatgpt.com/c/6a6d1e63-a230-83e8-805a-e34dd129c07a
